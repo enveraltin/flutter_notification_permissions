@@ -23,6 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
+    namespace 'com.dola.flutter_notification_permissions'
 
     defaultConfig {
         minSdkVersion 16
