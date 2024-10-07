@@ -34,16 +34,7 @@ android {
         disable 'InvalidPackage'
     }
 
-    // Place kotlinOptions directly under the android block
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-
-    configurations.all {
-        resolutionStrategy {
-            force 'androidx.core:core-ktx:1.6.0'
-        }
-    }
+ 
 }
 
 dependencies {
